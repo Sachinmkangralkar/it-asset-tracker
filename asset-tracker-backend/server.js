@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 // --- Database Connection ---
-const MONGO_URI = 'mongodb+srv://sachin:Sachin1575@itdashboard.wssmcq7.mongodb.net/?retryWrites=true&w=majority&appName=iTDASHBOARD';
+const MONGO_URI = '';
 
 // --- JWT Secret ---
 const JWT_SECRET = 'your_jwt_secret_key_that_is_long_and_random';
